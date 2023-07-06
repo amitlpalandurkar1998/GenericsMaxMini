@@ -7,15 +7,15 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("\nWellCome To Find Maximum Problem using Generics project.\n");
 
-        MaxMin<Integer> maxMin = new MaxMin();
+        MaxMin<Float> maxMin = new MaxMin();
         System.out.print("Enter The First Number (1st): ");
-        Integer firstNum = scanner.nextInt();
+        Float firstNum = scanner.nextFloat();
         System.out.print("Enter The Second Number (2nd): ");
-        Integer secondNum = scanner.nextInt();
+        Float secondNum = scanner.nextFloat();
         System.out.print("Enter The Third Number (3rd): ");
-        Integer thirdNum = scanner.nextInt();
+        Float thirdNum = scanner.nextFloat();
 
-        int result = maxMin.checkMaxNum(firstNum,secondNum,thirdNum);
+        Float result = maxMin.checkMaxNum(firstNum,secondNum,thirdNum);
         System.out.println("\n"+result+" is Max Number.");
     }
 }
