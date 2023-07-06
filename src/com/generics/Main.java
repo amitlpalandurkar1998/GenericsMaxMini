@@ -1,8 +1,5 @@
 package com.generics;
-
-import java.awt.datatransfer.StringSelection;
 import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -17,6 +14,7 @@ public class Main {
         Integer thirdNum = scanner.nextInt();
 
         Integer result = maxMin.checkMaxNum( firstNum, secondNum, thirdNum);
+
         System.out.println("\n"+result+" is Max Number.");
 
     }
